@@ -1,10 +1,3 @@
-"""Use Machine Learning (ML) methods to surrogate traditional climate models, and make predictions.
-Author = Fa Li
-
-.. MIT License
-..
-.. Copyright (c) 2019 Fa Li
-"""
 from netCDF4 import Dataset
 import numpy as np
 from sklearn.tree import DecisionTreeRegressor
